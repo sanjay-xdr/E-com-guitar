@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --white-color:#fff;
+  --grey-color:#808080;
+
+}
+.navigation {
+  margin: 0rem;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+  
+  .icon-heart,
+  .icon-cart {
+    font-size: 3rem;
+  }
+
+  .form-container{
+      height: 100vh;
+  }
+
+  .label-text{
+      font-size:2rem;
+      margin: 4px 4px;
+  }
+
+.input{
+      height: 5rem;
+      width: 60rem;
+      font-size: 2rem;
+     
+  }
+
+.input[type=submit]{
+    color: #fff;
+    background-color: blueviolet;
+}
