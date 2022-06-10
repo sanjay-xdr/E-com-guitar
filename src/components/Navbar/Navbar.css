@@ -1,0 +1,62 @@
+@import url(https://fsharpui.netlify.app/main.css);
+
+
+#nav{
+    position: fixed;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    max-width: 1020rem;
+    min-width: 90rem;
+ position: sticky;
+ background-color:whitesmoke;
+    top: 0;
+    z-index: 1;
+}
+.shopping-btn{
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#icon{
+    font-size: 3rem;
+}
+
+.shopping-btn:active{
+    color:plum
+}
+.nav__searchbar{
+  width: 60rem;   
+}
+.input{
+    background-color: #e5e7eb;
+   border: none;
+  width: 50rem;
+}
+
+.search-btn{
+    height: 4rem;
+    width: 8rem;
+}
+
+.input:focus{
+    background-color: transparent;
+    border: 1px solid #cbd5e1;
+}
+
+.icon-heart,.icon-carts{
+    font-size: 5rem;
+}
+
+.batch{
+    background-color: blueviolet;
+    color: white;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 20%;
+    position: relative;
+    text-align: center;
+    top: -15px;
+    left: -10px;
+}

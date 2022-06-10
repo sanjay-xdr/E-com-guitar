@@ -1,0 +1,13 @@
+    .visibility{
+      
+        position: relative;
+        top: 5px;
+        right: 50px;
+        cursor: pointer;
+        font-size: 2.3rem;
+    }
+
+    #required{
+        
+        border: 1px solid var(--primary-color) ;
+    }
